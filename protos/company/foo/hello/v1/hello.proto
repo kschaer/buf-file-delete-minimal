@@ -7,7 +7,7 @@ service HelloService {
 }
 
 message SayHelloRequest {
-  int64 name = 1;
+  string name = 1;
 }
 
 message SayHelloResponse {
